@@ -3,23 +3,29 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-div.gallery {
+section{
+	width: 100%;
+	float: left;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.galleryContainer{
+	margin: 0 auto;
+}
+.gallery {
 	margin: 5px;
 	border: 1px solid #ccc;
 	float: left;
 	width: 180px;
 }
-
-div.gallery:hover {
+.gallery:hover {
 	border: 1px solid #777;
 }
-
-div.gallery img {
+.gallery img {
 	width: 100%;
 	height: auto;
 }
-
-div.desc {
+.desc {
 	padding: 15px;
 	text-align: center;
 }
