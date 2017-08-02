@@ -54,8 +54,6 @@ jQuery(document).ready(function() {
 		jQuery('.next').attr('href', imgNumber + 2);
 		jQuery('.prev').attr('href', imgNumber);
 
-		// jQuery('.bigImage').attr('src', 'loading.png');
-
 		jQuery('.bigImage').attr('src', imgSrc).load(function() {
 			jQuery(this).fadeIn('slow');
 		});
@@ -79,7 +77,6 @@ jQuery(document).ready(function() {
 		hideOverlay();
 		return false;
 	});
-
 
 	jQuery(document).on('click','.navigationControls',function(e){
 		e.preventDefault();
@@ -123,10 +120,5 @@ jQuery(document).ready(function() {
 
 		return false;
 	});
-
-
-
-
-
 
 }); //document ready ends here

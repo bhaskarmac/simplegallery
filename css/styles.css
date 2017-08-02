@@ -6,6 +6,8 @@
 }
 body{
 	font-family: Roboto, verdana;
+	background-color: #2f3238;
+	color: #fff;
 	-webkit-user-select: none; /* Safari */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* Internet Explorer/Edge */
@@ -24,6 +26,13 @@ ul li {
 }
 ul li img {
 	cursor: pointer;
+	border:  3px solid #fff;
+	opacity: 0.6;
+	transition: opacity 0.5s;
+	border-radius: 4px;
+}
+ul li img:hover {
+	opacity: 1;
 }
 .overlay{
 	height: 100%;
@@ -37,17 +46,20 @@ ul li img {
 }
 .overlay .closebtn {
 	position: absolute;
-	top: 20px;
-	right: 45px;
-	font-size: 60px;
+	z-index: 3;
+	top: -20px;
+	right: -30px;
+	font-size: 40px;
 	color: #f1f1f1;
 	text-decoration: none;
 }
 .prev,
 .next {
+	outline: none;
 	text-decoration: none;
 	cursor: pointer;
 	position: absolute;
+	z-index: 3;
 	top: 50%;
 	width: auto;
 	padding: 16px;
@@ -72,6 +84,7 @@ ul li img {
 	height: 100%;
 	width: 100%;
 	position: relative;
+	border: 3px solid #fff;
 }
 .content {
 	top: 20px;

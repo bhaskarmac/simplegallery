@@ -39,7 +39,10 @@
     {
       "name": "Image ten",
       "imgSource": "img/10.jpg"
+    },
+    {
+      "name": "Image eleven",
+      "imgSource": "img/11.jpg"
     }
-
   ]
 }
