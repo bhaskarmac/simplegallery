@@ -6,9 +6,10 @@ A simple gallery built using JavaScript, jQuery and Bootstrap. To make gallery w
 
 ### With Python server
 
-1. Start simple python server  `python -m SimpleHTTPServer 8000`
-2. Open `http://localhost:8000/`
-3. Yeah! now gallery will be working
+1. Clone or download the repo.
+2. Start simple python server into directory `python -m SimpleHTTPServer 8000`
+3. Open `http://localhost:8000/`
+4. Yeah! now gallery will be working
 
 ### Add directory in wamp
 
