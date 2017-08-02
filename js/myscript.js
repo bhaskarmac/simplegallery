@@ -15,14 +15,16 @@ jQuery(document).ready(function() {
 	 * [showOverlay : method to show overlay]
 	 */
 	 function showOverlay() {
-	 	jQuery('.overlay').css('width', '100%');;
+	 	jQuery('.overlay').fadeIn('slow');
+	 	// jQuery('.overlay').css('width', '100%');;
 	 }
 
 	/**
 	 * [hideOverlay : method to hide overlay]
 	 */
 	 function hideOverlay() {
-	 	jQuery('.overlay').css('width', '0%');;
+	 	jQuery('.overlay').fadeOut('slow');
+	 	// jQuery('.overlay').css('width', '0%');;
 	 }
 
 	/**
@@ -34,10 +36,9 @@ jQuery(document).ready(function() {
 	 	var singleImage;
 	 	for (var i = 0; i<imageJSON.length; i++) {
 	 		singleImage = '<div class="gallery">'+
-	 		'<a href="'+imageJSON[i].imgSource+'" class="imgLink">'+
+	 		'<a href="'+imageJSON[i].imgSource+'" class="imgLink" data-slide-index="'+ (i+1) +'">'+
 	 		'<img src="'+imageJSON[i].imgSource+'" alt="'+imageJSON[i].name+'" width="300" height="200">'+
 	 		'</a>'+
-	 		'<div class="desc">'+imageJSON[i].name+'</div>'+
 	 		'</div>';
 
 	 		jQuery('.galleryContainer').append(singleImage);
@@ -49,6 +50,12 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		console.log('imgLink clicked');
 		showOverlay();
+
+		jQuery('.bigImage').attr('src', 'loading.png');
+		var imgSrc = jQuery(this).attr('href');
+		jQuery('.bigImage').attr('src', imgSrc).load(function() {
+			jQuery(this).fadeIn('slow')
+		});
 		return false;
 	});
 
@@ -62,6 +69,19 @@ jQuery(document).ready(function() {
 			hideOverlay();
 		}
 	});
+
+	jQuery(document).on('click','.prev',function(e){
+		e.preventDefault();
+		console.log('prev clicked');
+		return false;
+	});
+
+	jQuery(document).on('click','.next',function(e){
+		e.preventDefault();
+		console.log('next clicked');
+		return false;
+	});
+
 
 
 
