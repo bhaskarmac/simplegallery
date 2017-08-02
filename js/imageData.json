@@ -23,6 +23,23 @@
     {
       "name": "Image six",
       "imgSource": "img/6.jpg"
+    },
+    {
+      "name": "Image seven",
+      "imgSource": "img/7.jpg"
+    },
+    {
+      "name": "Image eight",
+      "imgSource": "img/8.jpg"
+    },
+    {
+      "name": "Image nine",
+      "imgSource": "img/9.jpg"
+    },
+    {
+      "name": "Image ten",
+      "imgSource": "img/10.jpg"
     }
+
   ]
 }
