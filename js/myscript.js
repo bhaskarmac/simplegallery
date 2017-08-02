@@ -57,6 +57,12 @@ jQuery(document).ready(function() {
 		hideOverlay();
 	});
 
+	jQuery(document).keyup(function(e) {
+		if (e.keyCode == 27) { 
+			hideOverlay();
+		}
+	});
+
 
 
 }); //document ready ends here
