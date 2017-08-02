@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
 	console.log('document is ready now!');
 
 	//Retrieving the image json data from imageData.json file
-	$.getJSON('../js/imageData.json', function(data) {
+	$.getJSON('js/imageData.json', function(data) {
 		console.log('data=>', data);
 		if(data){
 			displayImages(data.images);
@@ -34,7 +34,7 @@ jQuery(document).ready(function() {
 	 	var singleImage;
 	 	for (var i = 0; i<imageJSON.length; i++) {
 	 		singleImage = '<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">'+
-	 		'<img class="img-responsive imgLink" alt="'+imageJSON[i].name+'" src="../'+imageJSON[i].imgSource+'">'+
+	 		'<img class="img-responsive imgLink" alt="'+imageJSON[i].name+'" src="'+imageJSON[i].imgSource+'">'+
 	 		'</li>';
 	 		jQuery('.galleryContainer').append(singleImage);
 		} // for loop ends here

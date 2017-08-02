@@ -1,0 +1,48 @@
+{
+  "images": [
+    {
+      "name": "Image one",
+      "imgSource": "img/1.jpg"
+    },
+    {
+      "name": "Image two",
+      "imgSource": "img/2.jpg"
+    },
+    {
+      "name": "Image three",
+      "imgSource": "img/3.jpg"
+    },
+    {
+      "name": "Image four",
+      "imgSource": "img/4.jpg"
+    },
+    {
+      "name": "Image five",
+      "imgSource": "img/5.jpg"
+    },
+    {
+      "name": "Image six",
+      "imgSource": "img/6.jpg"
+    },
+    {
+      "name": "Image seven",
+      "imgSource": "img/7.jpg"
+    },
+    {
+      "name": "Image eight",
+      "imgSource": "img/8.jpg"
+    },
+    {
+      "name": "Image nine",
+      "imgSource": "img/9.jpg"
+    },
+    {
+      "name": "Image ten",
+      "imgSource": "img/10.jpg"
+    },
+    {
+      "name": "Image eleven",
+      "imgSource": "img/11.jpg"
+    }
+  ]
+}
