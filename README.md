@@ -29,3 +29,9 @@ To add more images in gallery
 1. Add images in `img` directory.
 2. Add appropriate entries in `js/imageData.json`.
 3. And you can see them in gallery.
+
+### Todo
+
+1. Implementaiton like plugin
+2. Add options like setting different options for gallery
+3. Optimization
