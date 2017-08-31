@@ -32,6 +32,6 @@ To add more images in gallery
 
 ### Todo
 
-1. Implementaiton like plugin
+1. Implementation like plugin structure
 2. Add options like setting different options for gallery
-3. Optimization
+3. Optimization of code
