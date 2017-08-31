@@ -32,6 +32,7 @@ To add more images in gallery
 
 ### Todo
 
-1. Implementation like plugin structure
-2. Add options like setting different options for gallery
-3. Optimization of code
+1. Displaying the loading image while all images loaded
+2. Implementation like plugin structure
+3. Add options like setting different options for gallery
+4. Optimization of code
