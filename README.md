@@ -32,7 +32,8 @@ To add more images in gallery
 
 ### Todo
 
-1. Displaying the loading image while all images loaded
+1. Displaying the loading image while all images loaded or some other technique which will manage the UI till all images are being loaded
 2. Implementation like plugin structure
 3. Add options like setting different options for gallery
 4. Optimization of code
+5. Adding CONTRIBUTING.md
